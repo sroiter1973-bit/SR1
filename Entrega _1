@@ -1,2 +1,17 @@
-# SR1
-Prueba
+# Entrega 1 BootcampDataScience_Samuel Roiter Vélez
+"""
+El conjunto de datos elegido para la entrega, contiene 250,000 registros de empleos, diseñado para predicción de salarios, análisis de datos y proyectos de aprendizaje automático.
+
+Incluye información sobre títulos de trabajo, nivel de experiencia, formación educativa, habilidades, tipo de industria, tamaño de la empresa y ubicación laboral.
+El conjunto de datos ayuda a explorar cómo diferentes factores influyen en el salario.
+
+Puede ser útil para:
+Modelos de predicción salarial
+Análisis exploratorio de datos (EDA)
+Prácticas de machine learning
+Proyectos de visualización de datos
+Información sobre salarios por formación e industria
+"""
+
+
+import pandas as pd 
