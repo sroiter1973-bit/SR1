@@ -12,6 +12,26 @@ Prácticas de machine learning
 Proyectos de visualización de datos
 Información sobre salarios por formación e industria
 """
-
+"""
+Requisitos del taller:
+• Cargar y explorar un dataset utilizando Pandas.
+Se importa la base de datos = job_salary_prediction_dataset.csv
+• Realizar procesos de limpieza y transformación de datos. 
+    1. se aplican los filtros para detectar duplicados;
+    2. se aplican filtros para detectar datos nulos;
+    3. se convierten los Paises a mayusculas.
+• Aplicar filtros, agrupaciones y operaciones básicas de análisis.
+    1. se filtran los paises de primer mundo en comparación con en paises en desarrollo junto con los remotos;
+    2. se filtran los trabajos en modalidad de presencial vs los remotos o hybridos;
+    3. se promedian los años de experiencia; 
+    4. se filtran por nivel educativo.
+• Generar conclusiones a partir de los resultados obtenidos.
+    1. se pueden observar en que estados hay mayor contratación;
+    2. el desarrollo de la actividad en relación al desarrollo social; 
+    3. el promedio de experiencia más apetecido; 
+    4. el nivel educativo más apetedcido. 
+"""
 
 import pandas as pd 
+df_DATOS=pd.read_csv('job_salary_prediction_dataset.csv')
+
